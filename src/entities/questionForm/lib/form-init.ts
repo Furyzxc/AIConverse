@@ -9,9 +9,9 @@ interface FormValues {
 export const form = {
     initialValues: { input: '' } as FormValues,
 
-    handleSubmit: (requestAnswer: any, dispatch: AppDispatch) => ({input}: FormValues, {resetForm}: FormikHelpers<FormValues>) => {
+    handleSubmit: (requestAnswer: (question: string) => void, dispatch: AppDispatch) => ({input}: FormValues, {resetForm}: FormikHelpers<FormValues>) => {
         requestAnswer(input)
-        dispatch(addMessage({text: input, author: 'me'}))
+        dispatch(addMessage({text: input, author: 'me', isError: false}))
 
         resetForm()
     },

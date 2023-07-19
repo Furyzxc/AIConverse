@@ -1,0 +1,25 @@
+.hero {
+    overflow-y: scroll;
+}
+
+.hero::-webkit-scrollbar {
+    width: 5px;
+}
+
+.hero::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background-color: #293038;
+}
+
+.hero::-webkit-scrollbar-thumb {
+    background-color: #54595F;
+    border-radius: 10px;
+}
+
+.hero::-webkit-scrollbar-thumb:hover {
+    background-color: grey;
+}
+
+.hero::-webkit-scrollbar-track:hover {
+    background-color: #2D343C;
+}

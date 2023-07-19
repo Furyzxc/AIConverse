@@ -1,0 +1,31 @@
+.dialogsForm {
+    background-color: #40414F;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 57px;
+    width: 94%;
+    outline: none;
+    border-radius: 15px;
+    position: fixed;
+    left: 3%;
+    right: 3%;
+    bottom: 0;
+    border: 1px solid rgba(32, 33, 35, 0.5);
+}
+
+.input {
+    height: 100%;
+    resize: none;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding-left: 3%;
+    width: 100%;
+}
+
+.input::placeholder {
+    user-select: none;
+    color: rgba(255, 255, 255, 0.7);
+}

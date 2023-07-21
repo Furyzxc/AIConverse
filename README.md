@@ -2,6 +2,8 @@
 
 <img src="https://github.com/Furyzxc/AIConverse/blob/34131767f78453893a0e19242b895587fcb9fe2f/src/assets/chatgptIcon.svg" alt="JobFinder Logo" width="200">
 
+[https://aiconverse.netlify.app](https://aiconverse.netlify.app)
+
 Recreated ChatGPT using the OpenAI API
 
 ## Overview
